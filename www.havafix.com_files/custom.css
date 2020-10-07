@@ -1,0 +1,712 @@
+
+
+/* contact us css strats here */
+html {
+    margin:0;
+    padding:0;
+    max-height:100vh;
+    overflow:hidden;
+}
+
+.contact_us {
+    background-image: url(../image/bg-contact.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center;
+}
+
+.contact_us .form-control-lg {
+    border: none;
+    text-align: center;
+    font-weight: 300;
+    font-size: 13px;
+    letter-spacing: 0.035em;
+}
+
+.contact_us p.contacts {
+    font-size: 1.3em;
+    font-weight: lighter;
+    font-family: HelveticaNeuelt;
+    letter-spacing: 0.03em;
+}
+
+.contact_us input::placeholder {
+    color: #000!important;
+    opacity: 1;  /* Firefox */
+    font-family: HelveticaNeueIt;
+}
+
+.contact_us .btn-light, .lk-box-Submitted-4 .btn-light {
+    border-radius: 29px;
+    color: #000;
+    font-size: 1em;
+    padding: .675rem 3rem;
+    letter-spacing: 0.03em;
+}
+
+
+/* contact us css ends here */
+
+
+
+/* login starts here */
+
+
+#login {
+    height: 100vh;
+}
+
+#login #home .form-control-lg, #forgot-password form .form-control-lg,
+#login #profile .form-control-lg {
+    border-radius: 50rem !important;
+    border: none;
+    text-align: center;
+    font-weight: 500;
+    font-family: HelveticaNeueLt;
+    color: grey;
+    font-size: 1em;
+    letter-spacing: 0.05em;
+}
+
+#login .nav-pills .nav-link.active {
+    background-color: #34beff;
+    border-radius: 50px;
+    font-family: HelveticaNeueMedium;
+    letter-spacing: 0.06em;
+}
+
+.navigation  .nav-link {
+    color: #000;
+    letter-spacing: 0.03em;
+    font-family: HelveticaNeueLt;
+}
+
+button.btn.form-btn, #login #profile button.btn.form-btn {
+    border: none;
+    font-size: 1em;
+    line-height: 2em;
+    letter-spacing: 0.04em;
+    text-decoration: none;
+    border: none;
+}
+
+button.btn.form-btn:hover {
+    background: #000;
+    text-decoration: none;
+}
+
+
+
+
+/* login and signup ends here */
+
+
+/* forgot password css here */
+
+/* div#forgot-password {
+    height: 100vh;
+} */
+
+
+a.forgot-pwd {
+    color: #000;
+    text-decoration: none;
+    background-color: transparent;
+    font-family: HelveticaNeueMedium;
+    font-size: 1em;
+}
+
+
+.cancel a {
+    color: #000;
+    background-color: transparent;
+    font-family: HelveticaNeueMedium;
+    font-size: 1em;
+}
+
+
+#forgot-password .bgs {
+    background-color: #34beff;
+    color: #fff;
+    border-radius: 15px;
+    padding: 38px 0;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+}
+
+
+
+/* forgot password css ends */
+
+
+
+
+/* havafix book completed */
+
+#book-completed .lk-Affiliate h1 {
+    font-size: 14px;
+    text-align: center;
+    padding: 9%;
+    line-height: 23px;
+    color: #464646;
+    letter-spacing: 0.03em;
+}
+
+
+
+.blue-form-btn,
+#book-completed form button.btn.blue-form-btn,
+.affiliate-reject button.btn.blue-form-btn,
+.affiliate-submit button.btn.blue-form-btn,
+.informative .blue-form-btn {
+    background: #34beff;
+    border: none;
+    font-size: 1em;
+    line-height: 2em;
+    letter-spacing: 0.04em;
+    text-decoration: none;
+    border: none;
+}
+
+.affiliate-reject {
+    /* height: 100vh; */
+    padding:15% 0;}
+
+.blue-form-btn:hover {
+    background: #34beff;
+}
+
+/* havafix book completed end */
+
+
+
+
+/* job scheduling starts here */
+
+
+#scheduling_details h3,
+#job_details h3,
+.book-job h3 {
+    font-size: 1.2em;
+    font-family: HelveticaNeueLt;
+    letter-spacing: 0.03em;
+}
+
+#scheduling_details .form-control-lg,
+#job_details .form-control-lg {
+    border-radius: 50rem !important;
+    border: none;
+    text-align: center;
+    font-weight: bold;
+    font-family: HelveticaNeueLt;
+    color: #000!important;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+}
+
+#scheduling_details input::placeholder, #job_details input::placeholder {
+    color: #000!important;
+    opacity: 1;  /* Firefox */
+}
+
+
+#scheduling_details .lk-drop button,
+#job_details .lk-drop button {
+    color: black;
+    background-color: white !important;
+    border: none;
+    width: 100%;
+    font-size: 15px;
+    height: 44px;
+    border-radius: 50px;
+    padding: 0px;
+}
+
+#job_details .lk-Affiliate {
+    background-color: white;
+    /* height: 120px; */
+    border-radius: 20px;
+}
+
+#job_details .lk-Affiliate h1 {
+    font-size: 14px;
+    text-align: center;
+    padding: 3%;
+    line-height: 23px;
+    color: #ababab;
+    letter-spacing: 0.03em;
+}
+
+button.btn.blue-form-btn:hover {
+    color: #fff;
+}
+
+/* job scheduling ends here */
+
+
+/* book category */
+
+#book-category .form-signin h1 {
+    font-family: HelveticaNeue;
+    font-weight: 100;
+    margin-top: 0%;
+    padding-bottom: 38px;
+    font-size: 1em;
+    font-weight: normal;
+    letter-spacing: 0.05em;
+}
+
+#book-category .form-signin label {
+    display: block;
+    position: relative;
+    margin: 14px 10px 10px 10px;
+    cursor: pointer;
+}
+
+p.welcome-admin {
+    color: grey;
+    font-weight: 100;
+    letter-spacing: 0.03em;
+    font-size: 1.1em;
+}
+
+/* book category */
+
+
+
+/* .affilate-dashbaord */
+
+.dashboard-admin p.welcome-admin {
+    color: grey;
+    letter-spacing: 0.05em;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.dashboard-admin p.welcome-admin:hover {
+    text-decoration: none;
+}
+
+
+.fa-lock:before {
+    content: "\f023";
+    color: #343a40;
+}
+
+.dashboard-admin .lk-job-details h1 {
+    font-size: 15px;
+    color: #343a40;
+    font-weight: 100;
+    line-height: 27px;
+    margin: 10px 0;
+}
+
+.lk-box-Submitted-2 h1 {
+    font-size: 15px;
+    color: #000;
+    margin: 10px 0;
+    letter-spacing: 0.04em;
+    font-family: sans-serif;
+}
+
+.lk-job-button {
+    text-align: center;
+    position: relative;
+    top: 0%;
+}
+
+/* .affilate-dashbaord */
+
+
+/* new tab 25 aug 2020 */
+
+ul#myTabMD {
+    background-color: #ededed;
+    border-radius: 50px;
+    margin: 0 auto;
+
+}
+
+ul#myTabMD li {
+    width: 133.6px;
+    text-align: center;
+}
+
+#dashbaord-tabs .nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    font-size: 13px;
+    font-family: HelveticaNeueMedium;
+    letter-spacing: 0.04em;
+}
+
+ul#myTabMD .nav-link.active {
+    background-color: #34beff;
+    border-radius: 50px;
+    color: #fff;
+    border: 1px solid #34beff;
+}
+
+/* inner tabs dashbaord*/
+
+ul#myinnerTab {
+    margin: 7% auto;
+    border: none;
+}
+
+#myinnerTab .nav-link.active {
+    color: #495057;
+    background-color: #fff;
+    border: none;
+    border-bottom: 2px solid #000;
+}
+
+#myTabContentinner .listing {
+    background-color: #ededed;
+    border-radius: 50px;
+    margin: 10px auto;
+    width: 100%;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.reviews-tabs h5 {
+    text-align: center;
+    font-size: 15px;
+    font-family: HelveticaNeue;
+    letter-spacing: 0.04em;
+    color: #000;
+}
+
+.reviews-tabs .lk-witdh {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 0.03em;
+    line-height: 1.7em;
+}
+
+.reviews-tabs .lk-witdh p {font-size: 14px;}
+
+.reviews-tabs img.rating {
+    width: 100px;
+}
+
+
+
+/* inner tabs dashbaord*/
+
+
+
+/* dashbaord chat */
+
+.chat-box {
+    overflow-y: auto;
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.dashbaord-chat .list-group-item+.list-group-item {
+    border-top-width: 0;
+    background: none;
+    border: none;
+    padding:0px;
+}
+
+.dashbaord-chat .list-group-item.active {
+    z-index: 2;
+    color: #fff;
+    border: none;
+    background: none!important;
+    padding:0px;
+}
+
+.dashbaord-chat .left-section .list-group-item.active .media {
+    z-index: 2;
+    color: #fff;
+    background-color: #34beff;
+    border-color: #34beff;
+    line-height: 2.8rem;
+    border-radius: 4px;
+    box-shadow: 0px 1px 2px 2px #ececec;
+    padding: 9px;
+}
+
+.dashbaord-chat .left-section .rounded-circle, .right-section .rounded-circle {
+    border-radius: 50%!important;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.dashbaord-chat .left-section .media-body {
+    max-width: 74%;
+}
+
+.dashbaord-chat .name-text {
+    padding: 0 10px 0 0;
+}
+
+.dashbaord-chat .list-group-item.active .name-text h6 {
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+    background: none;
+}
+
+.dashbaord-chat .name-text small {
+    font-size: 12px;
+}
+
+/* .dashbaord-chat .left-section .list-group-item.active .user-message {
+    color: #fff;
+} */
+
+.dashbaord-chat .sender-user {
+    overflow-y: scroll;
+    height: 447px;
+    /* box-shadow: inset 0px 11px 8px -10px #CCC, inset 0px -11px 8px -10px #CCC; */
+}
+.dashbaord-chat .sender-user .media {
+    border: none;
+    padding: 0px;
+}
+
+.dashbaord-chat .media {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    border-bottom: 1px solid #ccc;
+    padding: 20px 0;
+    align-items: center;
+}
+
+.dashbaord-chat .left-section .rounded-circle, .dashbaord-chat .right-section .rounded-circle {
+    border-radius: 50%!important;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.dashbaord-chat .sender-user .person-to p {
+    font-size: 0.9rem;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    width: auto;
+    background: #34beff;
+    padding: 18px;
+    color: #fff;
+    font-weight: 100;
+    border-radius: 0px 16px 16px 16px;
+    font-size: 0.9em;
+}
+
+.send-message input.form-control {
+    border-radius: 50px;
+    margin: 10px 0 0 0;
+    padding: 20px;
+    font-size: 14px;
+}
+
+div#chat {
+    background: #ededed;
+    padding: 10px;
+}
+
+.lk-box-Submitted-3 {
+    background-color: #34beff;
+    width: 100% !important;
+    height: 360px;
+    margin: 0 auto 15% auto;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.lk-box-Submitted-4 {
+    background-color: #34beff;
+    width: 100% !important;
+    height: auto;
+    margin: 0 auto 15% auto;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.lk-box-Submitted-3 .lk-witdh p {
+    justify-content: center;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    letter-spacing: 0.04em;
+}
+/* dashboard chat end */
+
+
+/* dashbaord quotes section */
+
+.lk-payment h5 {
+    font-size: 15px;
+    letter-spacing: 0.04em;
+}
+
+.dash-profile .admin-box {
+    background: #fff;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
+.gathering-box {
+    margin: 0 10px 0 0;
+    border: 1px solid #d4d4d4!important;
+    border-radius: 5px;
+}
+
+.gathering-box p {
+    font-size: 14px;
+    letter-spacing: 0.04em;
+    margin: 0px;
+}
+
+
+.job-cancel .lk-box-Submitted-4 .lk-Submit {
+    background-color: white;
+    color: darkgrey;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    position: unset;
+    font-size: 1em;
+    letter-spacing: 0.03em;
+}
+
+
+.job-selected .lk-job-details h1 {
+    font-size: 15px;
+    color: #fff;
+    letter-spacing: 0.03em;
+}
+
+.job-list p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #fff;
+    font-size: 1em;
+    letter-spacing: 0.03em;
+    font-family: HelveticaNeueLt;
+}
+
+.job-list .head p {
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    font-family: HelveticaNeueMedium;
+    margin: 25px 10px;
+}
+/* dashbaord quotes section end*/
+
+
+/* afiiiliated starts here */
+
+button.black-btn {
+    font-size: 1em;
+    letter-spacing: 0.03em;
+    padding: 10px 30px;
+    border: 0px;
+}
+
+h6.sub-head {
+    letter-spacing: 0.03em; font-size: 1em; text-decoration: underline;
+}
+
+.registation .form-control-lg {
+    border-radius: 50rem !important;
+    border: none;
+    text-align: center;
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+}
+
+.registation h2 {
+    margin: 20px 0;
+    font-size: 1.2em;
+    letter-spacing: 0.04em;
+}
+
+.informative {
+    background: #ededed;
+    border-radius: 40px;
+}
+
+.informative h1 {
+    font-size: 19px;
+    text-align: center;
+    padding: 4% 9%;
+    line-height: 23px;
+    color: #000;
+    letter-spacing: 0.03em;
+    font-weight: bold;
+}
+
+.informative p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 15px;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+
+.informative img {
+    vertical-align: middle;
+    border-style: none;
+    width: 10%;
+    margin: 0 auto;
+    display: block;
+}
+
+/* afiiiliated ends here */
+
+
+/* homepage */
+
+#home .form-signin h1 {
+    font-size: 16px;
+    color: #616161;
+    font-weight: 100;
+    margin-top: 0%;
+    padding-bottom: 38px;
+    letter-spacing: 0.04em;
+}
+
+#home {
+    height: 100vh;
+}
+
+.home-copyright {
+    border-top: 1px solid #ccc;
+    padding: 30px 0;
+    width: 100%;
+}
+
+.right-blue h4 {
+    font-size: 14px;
+    color: #fff;
+    letter-spacing: 0.05em;
+    font-weight: normal;
+    font-family: HelveticaNeueLt;
+}
+
+.right-blue li {
+    list-style: square;
+    font-weight: 100;
+}
+
