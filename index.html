@@ -5,7 +5,7 @@
 <link rel="stylesheet" href="./haveafix.css">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
 <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-
+<script src="./haveafix.js"></script>
 
 
 <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
@@ -19,10 +19,27 @@
         <ul>
         <li class="logoImg"><a href="#">
         <img alt="logo" src="./www.havafix.com_files/logo-blue.png"></a></li>
-        <li><a href="#">Account</a></li>
+        <li><a href="#" id="log" onclick="clickity()">Account</a></li>
         <li><a href="#">Book</a></li>
         </ul>
        </nav>
+ 
+
+<div class="form-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <h1>Login</h1>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <button type="submit" class="btn">Login</button>
+    
+  </form>
+</div>
+
    
 
        <div class="services">
